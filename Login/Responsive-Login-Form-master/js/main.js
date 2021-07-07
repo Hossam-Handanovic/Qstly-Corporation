@@ -1,0 +1,37 @@
+const inputs = document.querySelectorAll(".input");
+
+
+function addcl() {
+    let parent = this.parentNode.parentNode;
+    parent.classList.add("focus");
+}
+
+function remcl() {
+    let parent = this.parentNode.parentNode;
+    if (this.value == "") {
+        parent.classList.remove("focus");
+    }
+}
+
+
+inputs.forEach(input => {
+    input.addEventListener("focus", addcl);
+    input.addEventListener("blur", remcl);
+});
+
+/* ======================== AVATAR CHANGINE =============================*/
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("avatar");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1 }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}

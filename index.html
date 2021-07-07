@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/qastly_logo2.png" type="image/x-icon">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--Star Ratings-->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Qstly</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+    <!--Button Up To Down-->
+    <button id="back-to-top-btn"><i class='bx bx-chevrons-up' ></i>
+
+    </button>
+
+    <!-- Header -->
+    <header id="home" class="header">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="navigation container">
+                <div class="logo">
+                    <h1 class="logo1">
+                        <a href="" id="q1">Qstly</a> &nbsp; <span id="span1"></span> &nbsp; <a href=""><span id="span2">قسطلي</span></a>
+                    </h1>
+                </div>
+
+                <div class="menu">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <h1 id="h1">Qstly</h1>
+                        </div>
+                        <div class="close">
+                            <i class="bx bx-x"></i>
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="products1">Products <i class='bx bx-chevron-down dropdown__icon'></i></a>
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item" id="drop1"><a href="./Mobiles.html" class="nav__link">Mobiles</a></li>
+                                <li class="dropdown__item" id="drop2"><a href="./Headphones.html" class="nav__link">Headphones</a></li>
+                                <li class="dropdown__item" id="drop3"><a href="./Appliances.html" class="nav__link">Appliances</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./Search Page/index.html" class="nav-link  ">Search</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="Contact/Contact-Form-HTML-CSS-master/index.html" id="nav3">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Login/Responsive-Login-Form-master/index.html" id="account1">Account</a>
+                        </li>
+                        <li> <i class='bx bx-moon changing-theme bx-flashing' id="dark1"></i> </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="hamburger">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <img src="./images/young-man-order-online-with-credit-card-using-mobile-phone__1_-removebg.png" alt="" class="hero-img" />
+
+        <div class="hero-content">
+            <h2><span class="discount">20% </span> Discount</h2>
+            <h1>
+                <span>First Time</span>
+                <span>Buying from our site</span>
+            </h1>
+            <a class="btn" href="#the_feature">shop now</a>
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <!-- Main -->
+    <main>
+
+        <div class="title">
+
+        </div>
+
+        <div class="container11">
+            <!-- Collection -->
+            <section id="collection" class="section collection">
+                <div class="collection__container" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img class="collection_02" src="./images/collection_02.png" alt="">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>New Versions of</span>
+                                <h1 class="head">HEADPHONES</h1>
+                                <a href="./Headphones.html" class="Shop">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection__box">
+                        <div class="img__container">
+                            <img class="collection_01" src="./images/collection_01.png" alt="">
+                        </div>
+                        <div class="collection__content">
+                            <div class="collection__data">
+                                <span>Available Now Here</span>
+                                <h1 class="head">SMARTPHONES</h1>
+                                <a href="./Mobiles.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
+
+
+            <!--
+            <section class="advert section">
+                <div class="advert-center container">
+                    <div class="advert-box">
+                        <div class="dotted">
+                            <div class="content">
+                                <h2>
+                                    Girls <br /> Clothing
+                                </h2>
+                                <h4>Worlds Best Brands</h4>
+                            </div>
+                        </div>
+                        <img src="./images/advert1.png" alt="">
+                    </div>
+
+                    <div class="advert-box">
+                        <div class="dotted">
+                            <div class="content">
+                                <h2>
+                                    Summer <br /> Clothing
+                                </h2>
+                                <h4>Worlds Best Brands</h4>
+                            </div>
+                        </div>
+                        <img src="./images/advert2.png" alt="">
+                    </div>
+
+                    <div class="advert-box">
+                        <div class="dotted">
+                            <div class="content">
+                                <h2>
+                                    Boys <br /> Clothing
+                                </h2>
+                                <h4>Worlds Best Brands</h4>
+                            </div>
+                        </div>
+                        <img src="./images/advert3.png" alt="">
+                    </div>
+                </div>
+            </section>
+-->
+            <!-- Featured -->
+            <section class="section featured" id="the_feature">
+                <div class="title">
+                    <h1 onclick="popup1();">Featured Products &#128187; &#127911;</h1>
+                    <script type="text/javascript">
+                        function popup1() {
+                            swal("These are most of featured products based on ratings", {
+                                buttons: false,
+                                timer: 3000,
+
+
+                            });
+                        }
+                    </script>
+                </div>
+
+                <div class="product-center container">
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/HeadPhone1.png" alt="" class="img1">
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+
+                                <a href="./Beats stn-13.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Beats stn-13.html">
+                                <h3>Beats Headphone</h3>
+                            </a>
+                            <div class="rating">
+
+                                <x-star-rating>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+
+                            </div>
+                            <h4 class="price">1200 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Iphone1.png" alt="" class="img2">
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./iphone X.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./iphone X.html">
+                                <h3>iPhone X</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">10,944 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/DELL1.png" alt="" class="img2">
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Dell inspiron 15 series.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Dell inspiron 15 series.html">
+                                <h3>Dell Inspiron 15 serie</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">12000 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/M31.png" alt="" class="img3">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Samsung M31.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Samsung M31.html">
+                                <h3>Samsung M31</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">4,800 LE</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Latest -->
+            <section class="section featured" id="latest1">
+                <div class="title">
+                    <h1 onclick="popup3();">Latest Products &#128242; &#128722;</h1>
+                    <script type="text/javascript">
+                        function popup3() {
+                            swal("All of latest products that choosen randomly", {
+                                buttons: false,
+                                timer: 3000,
+
+
+                            });
+                        }
+                    </script>
+                </div>
+
+                <div class="product-center container">
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Samsu1.png" alt="" class="img3">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Samsung 50 Inch 4K.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer" id="p-f">
+                            <a href="./Samsung 50 Inch 4K.html">
+                                <h3>Samsung 50 Inch 4K</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">10,800 lE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/A71.png" alt="" class="img4">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Samsung A71.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Samsung A71.html">
+                                <h3>Samsung A71</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">6,300 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Deep Freezer.png" alt="" class="img4">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Electro D-Freezer.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Electro D-Freezer.html">
+                                <h3>Electro D-Freezer</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">6000 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Samsung Washer.png" alt="" class="img4">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Samsung Washer.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Samsung Washer.html">
+                                <h3> Samsung washer</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">8,600 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/HeadPhone2.png" alt="" class="img2">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Beats Headphone.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Beats Headphone.html">
+                                <h3>Beats Headphone </h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">1,320 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Toshipa.png" alt="" class="img4">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Toshiba GR-EF40P.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Toshiba GR-EF40P.html">
+                                <h3>Toshipa GR-EF40P</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">9,800 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Oppo.png" alt="" class="img4">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Oppo A53.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Oppo A53.html">
+                                <h3>Oppo A53</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">2,980 LE</h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-header">
+                            <img src="./images/Lenovo Labtop.png" alt="" class="img3">
+
+                            <ul class="icons">
+                                <span><i class="bx bx-heart" onclick="popup33();"></i></span>
+                                <script type="text/javascript">
+                                    function popup33() {
+                                        swal("Thank you for your support ❤❤❤", {
+                                            buttons: false,
+                                            timer: 3000,
+
+
+                                        });
+                                    }
+                                </script>
+                                <a href="./Lenovo V15 IIL.html" style="color:black"> <span><i class="bx bxs-shopping-bag"></i></span></a>
+                                <a href="Search Page/index.html" style="color:black"> <span><i class="bx bx-search"></i></span></a>
+                            </ul>
+                        </div>
+                        <div class="product-footer">
+                            <a href="./Lenovo V15 IIL.html">
+                                <h3>Lenovo V15-IIL</h3>
+                            </a>
+                            <div class="rating">
+                                <x-star-rating class="rating1">
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </x-star-rating>
+                            </div>
+                            <h4 class="price">6,800 LE</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Banner -->
+            <section class="section">
+                <div class="product-banner">
+                    <div class="left">
+                        <img src="images/laughing-black-man-in-glasses-expressing-excitement-emotional-international-student-holding-computer.jpg" alt="" class="labboy1">
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <h2><span class="discount">20% </span> Discount</h2>
+                            <h1>
+                                <span> your new Collection</span>
+                                <span>From Headphones to Waching machines</span>
+                            </h1>
+                            <a class="btn" href="#latest1" id="Shop2">shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section featured">
+                <div class="title">
+                    <h1 onclick="popup6();">Some of comments &#9997; &#128079;</h1>
+                    <script type="text/javascript">
+                        function popup6() {
+                            swal("Some of our customers comments to support us", {
+                                buttons: false,
+                                timer: 3000,
+
+
+                            });
+                        }
+                    </script>
+                </div>
+            </section>
+            <!-- Testimonials -->
+            <section class="section">
+                <div class="testimonial-center container">
+                    <div class="testimonial">
+                        <span>&ldquo;</span>
+                        <p id="p1">
+                            This corporation is good to offer many products but i think they should improve the contact in social media but other options are good.
+                        </p>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bx-star"></i>
+                            <i class="bx bx-star"></i>
+                        </div>
+                        <div class="img-cover">
+                            <img src="./images/person_opinion_1.PNG" alt="" />
+                        </div>
+                        <h4 id="h4">Ahmed Yasser <i class='bx bxs-user-voice'></i></h4>
+                    </div>
+                    <div class="testimonial">
+                        <span>&ldquo;</span>
+                        <p id="p1">
+                            Most perfect site I saw cause I found many featuers like darkmode and easily way to get and require a product if not Available in site.
+                        </p>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="img-cover">
+                            <img src="./images/person_opinion_2.PNG" alt="" />
+                        </div>
+                        <h4 id="h4">Shady Mostafa <i class='bx bxs-user-voice'></i></h4>
+                    </div>
+                    <div class="testimonial">
+                        <span>&ldquo;</span>
+                        <p id="p1">
+                            is very well to find more products with option like installment and also the User interface of site very simple and nice to use.
+                        </p>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bx-star"></i>
+                        </div>
+                        <div class="img-cover">
+                            <img src="./images/person_opinion_3.PNG" alt="" />
+                        </div>
+                        <h4 id="h4">Sally Ibrahim <i class='bx bxs-user-voice'></i></h4>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!-- Brands -->
+            <section class="section">
+                <div class="brands-center container">
+                    <div class="brand">
+                        <a href="https://www.lg.com/eg_ar"> <img src="./images/lg-electronics-vector-logo.png" alt="" class="brand1" id="br1" /></a>
+                    </div>
+                    <div class="brand">
+                        <a href="https://www.oppo.com/eg/"> <img src="./images/oppo-logo-40759.png" alt="" class="brand1" id="br2" /></a>
+                    </div>
+                    <div class="brand">
+                        <a href="https://www.samsung.com/eg/"> <img src="./images/1280px-Samsung_Logo.svg.png" alt="" class="brand1" id="br2" /></a>
+                    </div>
+                    <div class="brand">
+                        <a href="https://www.beatsbydre.com/"><img src="./images/161cff19e668e270ccb1b98856ebd81e-removebg-preview.png" alt="" class="brand1" id="br2" /></a>
+                    </div>
+
+                    <div class="brand">
+                        <a href="https://www.apple.com/eg-ar/"> <img src="./images/apple.png" alt="" class="brand1" id="br2" /></a>
+                    </div>
+                    <div class="brand">
+                        <a href="https://www.dell.com/ae/ar/p/"> <img src="./images/1024px-Dell_Logo.svg.png" alt="" class="brand1" id="br2" /></a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>EXTRAS</h3>
+                    <a href="#footer" onclick="popup45();">Brands <i class='bx bxs-shopping-bags'></i></a>
+                    <script type="text/javascript">
+                        function popup45() {
+                            swal("If you don’t find brand that you want write it here:", {
+                                    content: "input",
+                                })
+                                .then((value) => {
+                                    swal(`You typed: ${value}` + " 🛒");
+                                });
+                        }
+                    </script>
+
+                    <a href="#footer" onclick="popup44();">Gift and Offers <i class='bx bx-gift' ></i></a>
+                    <script type="text/javascript">
+                        function popup44() {
+                            swal("sorry it is not avialable now", {
+                                icon: "error",
+                                buttons: true,
+                            });
+                        }
+                    </script>
+
+                    <a href="#footer" onclick="popup4();">Affiliate <i class='bx bxs-bullseye'></i></a>
+                    <script type="text/javascript">
+                        function popup4() {
+                            swal("sorry it is not avialable now", {
+                                icon: "error",
+                                buttons: true,
+                            });
+                        }
+                    </script>
+
+                    <a href="./Site Map/css-sitemap-navigation-map/index.html">Site Map <i class='bx bx-map-alt'></i></a>
+                </div>
+                <div class="footer-center">
+                    <h3>Information</h3>
+                    <a href="About US Page/about-us-page/dist/index.html">About Us <i class='bx bx-info-circle' ></i></a>
+                    <a href="./Privacy and Policy/index.html">Privacy Policy <i class='bx bx-show-alt' ></i></a>
+                    <a href="./Terms and Condition/index.html">Terms & Conditions <i class='bx bxs-user-check'></i></a>
+                    <a href="./Contact/Contact-Form-HTML-CSS-master/index.html">Contact Us <i class='bx bx-support'></i></a>
+                    <a href="https://www.google.com.eg/maps/@30.799145,31.0037183,20.25z/data=!4m2!7m1!2e1?authuser=4">Our Location (Google map) <i class='bx bx-map' ></i></a>
+                </div>
+                <div class="footer-center">
+                    <h3 id="Social_media" onclick="popup2();">Social Media</h3>
+                    <script type="text/javascript">
+                        function popup2() {
+                            swal("You can visit us in our social media to see new news", {
+                                buttons: false,
+                                timer: 3000,
+
+
+                            });
+                        }
+                    </script>
+
+                    <div class="footer-center1">
+                        <a href="https://www.facebook.com/Qstly-%D9%82%D8%B3%D8%B7%D9%84%D9%8A-106466388300095" id="facebook"> <span id="facebook">Facebook</span> <i class='bx bxl-facebook'></i></a>
+                    </div>
+                    <div class="footer-center2">
+                        <a href="https://twitter.com/Qstly1" id="twitter"> <span id="twitter">Twitter</span><i class='bx bxl-twitter'></i></a>
+                    </div>
+                    <div class="footer-center3">
+                        <a href="https://www.instagram.com/qstly.corporation/" id="instagram"><span id="instagram">Instagram</span> <i class='bx bxl-instagram' ></i></a>
+                    </div>
+
+
+
+                </div>
+                <div class="footer-center">
+                    <h3>Contact & Address</h3>
+                    <div>
+                        <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>EL Helw street
+                    </div>
+                    <div>
+                        <span>
+              <i class="far fa-envelope"></i>
+            </span>Qstly.corporation@hotmail.com
+
+                    </div>
+                    <div>
+                        <span>
+              <i class="fas fa-phone"></i>
+            </span>01026312120
+                    </div>
+                    <div>
+                        <span>
+              <i class="far fa-paper-plane"></i>
+            </span>Tanta City, Egypt
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

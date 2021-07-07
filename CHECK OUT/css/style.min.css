@@ -1,0 +1,48 @@
+.view,
+body,
+html {
+    height: 100%
+}
+
+.carousel {
+    height: 50%
+}
+
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item {
+    height: 100%
+}
+
+@media (max-width:776px) {
+    .carousel {
+        height: 100%
+    }
+}
+
+:root {
+    --sc: linear-gradient(rgb(179, 179, 179), #eeeeee);
+}
+
+.page-footer {
+    background-color: #89acf7
+}
+
+@media only screen and (max-width: 768px) {
+    #a1 {
+        margin-left: 80px;
+    }
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--sc);
+    border-radius: 20px;
+}

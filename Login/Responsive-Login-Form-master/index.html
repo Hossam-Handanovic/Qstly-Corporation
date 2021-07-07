@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/qastly_logo2.png" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="img">
+
+        </div>
+        <div class="login-content">
+            <form action="index.html" class="the_login">
+                <div class="The_Avatar">
+
+                    <img src="img/Avatar1.png" class="avatar">
+                    <img src="img/Avatar2.png" class="avatar">
+                    <img src="img/Avatar3.png" class="avatar">
+                    <img src="img/Avatar4.png" class="avatar">
+                    <img src="img/Avatar5.png" class="avatar">
+                    <img src="img/Avatar6.png" class="avatar">
+
+                </div>
+
+                <a id="a1" href="file:///D:/%D9%82%D8%B3%D8%B7%D9%84%D9%8A%20%D8%AF%D9%88%D8%AA%20%D9%83%D9%88%D9%85/%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9%20%D8%A7%D9%84%D8%A7%D8%B3%D8%A7%D8%B3%D9%8A%20%D9%84%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%84/ecommerce-website-4-master/index.html#">
+                    <h2 class="title" id="head2">Qstly</h2>
+                </a>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input">
+                    </div>
+                </div>
+                <a href="../account form/index.html" id="Create">Create Account</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#" id="Create" onclick="forget_pass();">Forgot Password?</a>
+                <script>
+                    function forget_pass() {
+                        Swal.fire({
+                            title: 'Input Your mail to check to return password',
+                            input: 'email',
+                            inputLabel: 'Your email address',
+                            inputPlaceholder: 'user@Qstly.com'
+                        })
+
+                        if (email) {
+                            Swal.fire(`Entered email: ${email}`)
+                        }
+                    }
+                </script>
+
+                <input type="submit" class="btn" value="Login">
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 40%;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid transparent;
+    outline: none;
+    /* Add a grey border */
+    border-radius: 30px;
+    margin-top: 250px !important;
+    /* Add some space below the input */
+    margin-left: 390px;
+}
+
+:root {
+    --sc: linear-gradient(rgb(5, 5, 85), #0a0791);
+}
+
+* {
+    scrollbar-width: thin;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--sc);
+    border-radius: 20px;
+}
+
+li {
+    opacity: 0%;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {}
+
+
+/* Search Icon */
+
+.bx-search:before {
+    content: "\eb54";
+    font-size: larger;
+    margin-left: -40px;
+}
+
+#myUL li a {
+    border: 1px solid transparent;
+    /* Add a border to all links */
+    margin-top: 3px;
+    /* Prevent double borders */
+    background-color: transparent;
+    /* Grey background color */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove default text underline */
+    font-size: 18px;
+    /* Increase the font-size */
+    color: white;
+    /* Add a black text color */
+    display: block;
+    /* Make it into a block element to fill the whole list */
+    width: 80px;
+    margin-left: 410px;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: transparent;
+    color: #f13c5b;
+    /* Add a hover effect to all links, except for headers */
+}
+
+#logo3 {
+    width: 80px;
+    height: 80px;
+}
+
+#img3 {
+    margin-top: -145px !important;
+    margin-left: 610px !important;
+}
+
+.myul1 {
+    margin-top: 75px;
+}
+
+@media (max-width: 1050px) {
+    #myInput {
+        background-image: url('/css/searchicon.png');
+        /* Add a search icon to input */
+        background-position: 10px 12px;
+        /* Position the search icon */
+        background-repeat: no-repeat;
+        /* Do not repeat the icon image */
+        width: 70%;
+        /* Full-width */
+        font-size: 16px;
+        /* Increase font-size */
+        padding: 12px 20px 12px 40px;
+        /* Add some padding */
+        border: 1px solid transparent;
+        outline: none;
+        /* Add a grey border */
+        border-radius: 30px;
+        margin-top: 250px !important;
+        /* Add some space below the input */
+        margin-left: 50px;
+    }
+    li {
+        opacity: 0%;
+    }
+    #myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    /* Search Icon */
+    .bx-search:before {
+        content: "\eb54";
+        font-size: larger;
+        margin-left: -40px;
+    }
+    #myUL li a {
+        border: 1px solid transparent;
+        /* Add a border to all links */
+        margin-top: 3px;
+        /* Prevent double borders */
+        background-color: transparent;
+        /* Grey background color */
+        padding: 12px;
+        /* Add some padding */
+        text-decoration: none;
+        /* Remove default text underline */
+        font-size: 18px;
+        /* Increase the font-size */
+        color: white;
+        /* Add a black text color */
+        display: block;
+        /* Make it into a block element to fill the whole list */
+        width: 80px;
+        margin-left: 50px;
+    }
+    #myUL li a:hover:not(.header) {
+        background-color: transparent;
+        color: #f13c5b;
+        /* Add a hover effect to all links, except for headers */
+    }
+    #logo3 {
+        width: 60px;
+        height: 60px;
+    }
+    #img3 {
+        margin-top: -140px !important;
+        margin-left: 150px !important;
+    }
+    .myul1 {
+        margin-top: 80px;
+    }
+}
